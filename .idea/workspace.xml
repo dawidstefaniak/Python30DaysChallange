@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c6e3148-411e-49dd-8b35-c286f3d1d709" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8c6e3148-411e-49dd-8b35-c286f3d1d709" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +59,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="30DaysChallange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="Python30DaysChallange-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,24 +176,24 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" weight="0.3103082" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.3103082" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.3103082" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -218,9 +216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -241,7 +236,7 @@
     <entry file="file://$PROJECT_DIR$/3IntroToConditionalStatements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
