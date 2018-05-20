@@ -13,3 +13,5 @@ if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
     
+    for x in range(n):
+        print(arr[n-x-1],end = ' ')
