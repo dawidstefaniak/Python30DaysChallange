@@ -12,4 +12,6 @@ if __name__ == '__main__':
     n = int(input())
 
     arr = list(map(int, input().rstrip().split()))
-    
+
+    for x in range(n):
+        print(arr[n-x-1], " ")
