@@ -6,11 +6,18 @@ class Solution:
     def display(self,head):
         current = head
         while current:
-            print(current.data,end=' ')
+            print(current.data)
             current = current.next
 
     def insert(self,head,data):
-
+        current = head
+        if current is None:
+            head = Node(data)
+        elif current.next is None:
+            current.next = Node(data)
+        else:
+            self.insert(current.next,data)
+        return head
 
 
     # Complete this method
