@@ -18,11 +18,15 @@ class database:
         self.name.append(name)
         self.email.append(email)
         self.id.append(self.counter)
-        self.id += 1
+        self.counter += 1
 
     def getNames(self):
-        for x in self.name:
-            toprint = re.match()
+        i = 0
+        for x in self.email:
+            toprint = re.match(".*@gmail\.com", x)
+            if toprint:
+                print(self.name[i])
+            i += 1
 
 
 if __name__ == '__main__':
@@ -36,3 +40,5 @@ if __name__ == '__main__':
         emailID = firstNameEmailID[1]
 
         db.addValues(firstName, emailID)
+
+    db.getNames()
