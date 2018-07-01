@@ -12,6 +12,7 @@ class database:
         self.name = []
         self.email = []
         self.id = []
+        self.namestoreturn = []
         self.counter = 0
 
     def addValues(self, name, email):
@@ -25,9 +26,9 @@ class database:
         for x in self.email:
             toprint = re.match(".*@gmail\.com", x)
             if toprint:
-                print(self.name[i])
+                self.namestoreturn.append(self.name[i])
             i += 1
-
+        self.namestoreturn.sort()
 
 if __name__ == '__main__':
     N = int(input())
@@ -42,3 +43,5 @@ if __name__ == '__main__':
         db.addValues(firstName, emailID)
 
     db.getNames()
+    for x in db.namestoreturn:
+        print(x)
